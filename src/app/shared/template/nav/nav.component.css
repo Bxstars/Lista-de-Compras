@@ -1,0 +1,22 @@
+.sidenav {
+    background-color: #4e7ba0fd;
+    width: 200px;
+}
+
+.sidenav a {
+    color: #FFF;
+    font-weight: 300;
+}
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.sidenav img {
+    max-height: 30px ;
+    padding-right: 5%;
+}
+.content {
+    padding: 16px;
+    background-color: #FFF;
+}
