@@ -13,6 +13,8 @@ table {
 form {
   display: flex;
   flex-direction: column;
+  margin-top: 2%;
+
 }
 
 .red {
@@ -32,7 +34,16 @@ form {
 .button-cancel{
   margin-right: 15px;
   margin-top: 20px;
-  background-color: #b83b65fd;
+  background-color: #b44268fd;
   color: white;
 }
 
+.msg-success{
+  background-color: #43a770;
+  color: #FFF;
+}
+
+.msg-error{
+  background-color:  rgb(219, 99, 111);
+  color: #FFF;
+}

@@ -1,1 +1,20 @@
-<p>product-update works!</p>
+<mat-card class="mat-elevation-z4">
+  <mat-card-title>Editar Produto</mat-card-title>
+  <form>
+      <mat-form-field>
+          <input matInput placeholder="Nome"
+          [(ngModel)]=" productSelected.name" name="name">
+      </mat-form-field>
+      <mat-form-field>
+          <input matInput placeholder="Preço (R$)"
+          [(ngModel)]=" productSelected.price" name="price">
+      </mat-form-field>
+  </form>
+  <button mat-raised-button (click)="updateProduct()"  class="button-action">
+      Salvar
+  </button>
+  <button mat-raised-button (click)="cancel()" class="button-cancel">
+      Cancelar
+  </button>
+</mat-card>
+
