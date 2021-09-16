@@ -1,0 +1,19 @@
+
+th {
+  font-size: 12pt;
+  background-color: #4e7ba0fd;
+  color: #FFF;
+}
+
+td {
+  font-size: 10pt;
+}
+
+i.edit {
+  color: #d9cd26;
+}
+
+i.delete {
+  color: #e35e6b;
+  padding-left: 8%;
+}

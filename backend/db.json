@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000
+    },
+    {
+      "id": 3,
+      "name": "Iphone 11",
+      "price": 5200
+    },
+    {
+      "name": "Pen Drive ",
+      "price": "100",
+      "id": 4
+    },
+    {
+      "name": "Garrafa de água",
+      "price": "2.50",
+      "id": 5
+    },
+    {
+      "name": "Mouse",
+      "price": "65",
+      "id": 6
+    },
+    {
+      "name": "Samsung Watch 3",
+      "price": "2500",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html, body { height: 100%;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+p { color: black;}
+
+table {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.red {
+    color: rgb(227, 94, 107);
+}
+.v-middle{
+    vertical-align: middle;
+}
+
+.button-action{
+  margin-right: 15px;
+  margin-top: 20px;
+  background-color: #3472a5fd;
+  color: white;
+}
+
+.button-cancel{
+  margin-right: 15px;
+  margin-top: 20px;
+  background-color: #b83b65fd;
+  color: white;
+}
+
