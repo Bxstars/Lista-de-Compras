@@ -34,6 +34,16 @@
       "name": "Samsung Watch 3",
       "price": "2500",
       "id": 7
+    },
+    {
+      "id": 8,
+      "name": "Notebook Acer",
+      "price": "4500"
+    },
+    {
+      "id": 9,
+      "name": "Funko Mei - Overwatch",
+      "price": "120"
     }
   ]
 }

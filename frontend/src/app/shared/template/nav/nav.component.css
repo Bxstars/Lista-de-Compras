@@ -1,22 +1,36 @@
 .sidenav {
-    background-color: #4e7ba0fd;
+    background-color: #3472a5fd;
     width: 200px;
 }
 
 .sidenav a {
     color: #FFF;
     font-weight: 300;
+    transition: all 0.4s ease;
+    border-radius: 8px;
+}
+
+.sidenav a:hover{
+  color: #4e7ba0fd;
+  background-color: #FFF;
+  font-weight: 300;
 }
 
 .sidenav i {
     padding-right: 10px;
 }
 
-.sidenav img {
+.sidenav img  {
     max-height: 30px ;
     padding-right: 5%;
 }
 .content {
     padding: 16px;
     background-color: #FFF;
+
+}
+
+.menu-list {
+  padding: 15px;
+  color: #FFF;
 }
