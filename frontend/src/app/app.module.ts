@@ -30,6 +30,8 @@ import { ProductUpdateComponent } from './modules/product/components/product-upd
 import localePt from '@angular/common/locales/pt'
 import { registerLocaleData  } from '@angular/common';
 import { ProductComponent } from './modules/product/components/product/product.component';
+import { ListProductsComponent } from './modules/list-products/components/list-products/list-products.component';
+
 
 registerLocaleData(localePt)
 
@@ -45,6 +47,7 @@ registerLocaleData(localePt)
     ProductReadComponent,
     ProductUpdateComponent,
     ProductComponent,
+    ListProductsComponent,
   ],
   imports: [
     BrowserModule,

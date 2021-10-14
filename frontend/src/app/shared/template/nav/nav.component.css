@@ -1,6 +1,8 @@
 .sidenav {
-    background-color: #3472a5fd;
+    background-color: transparent;
+    background-image: linear-gradient( to top, rgb(237, 242, 245),  #4e7ba0fd);
     width: 200px;
+    border: transparent;
 }
 
 .sidenav a {
@@ -24,10 +26,10 @@
     max-height: 30px ;
     padding-right: 5%;
 }
+
 .content {
     padding: 16px;
     background-color: #FFF;
-
 }
 
 .menu-list {

@@ -47,3 +47,10 @@ form {
   background-color:  rgb(219, 99, 111);
   color: #FFF;
 }
+
+.button-create {
+  margin-bottom: 30px;
+  background-color: #3472a5fd;
+  color: white;
+}
+
