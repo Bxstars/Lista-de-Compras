@@ -3,7 +3,9 @@
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 html, body { height: 100%;}
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: rgb(237,242,245, 0.5)
+}
 p { color: black;}
 
 table {

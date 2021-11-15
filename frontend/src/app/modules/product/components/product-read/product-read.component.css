@@ -2,21 +2,42 @@ button{
   margin-bottom: 30px;
 }
 
+.mat-elevation-z2{
+  background-color:  rgb(237,242,245, 0.5);
+}
+
+table{
+  background-color: #7096b4fd;
+}
+
 th {
   font-size: 12pt;
-  background-color: #4e7ba0fd;
+  background-color: #365772fd;
   color: #FFF;
 }
 
 td {
   font-size: 10pt;
+  color: #FFF;
 }
 
 i.edit {
-  color: #d9cd26;
+  color: #ccd826;
+  padding: 8px;
 }
 
 i.delete {
   color: #e35e6b;
-  padding-left: 8%;
+  padding: 8px;
+}
+
+.material-icons {
+  transition: all 0.4s ease;
+  border-radius: 30px;
+}
+
+.material-icons:hover {
+ box-shadow: 10px 10px 10px 3px #47464694;
+ cursor: pointer;
+ background-color: rgb(255, 255, 255);
 }

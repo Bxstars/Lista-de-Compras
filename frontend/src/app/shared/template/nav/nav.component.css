@@ -1,38 +1,42 @@
 .sidenav {
-    background-color: transparent;
-    background-image: linear-gradient( to top, rgb(237, 242, 245),  #4e7ba0fd);
-    width: 200px;
-    border: transparent;
+  background-color: transparent;
+  background-image: linear-gradient( to top, rgb(237, 242, 245),  #3b6180fd);
+  width: 200px;
+  border: transparent;
 }
 
 .sidenav a {
-    color: #FFF;
-    font-weight: 300;
-    transition: all 0.4s ease;
-    border-radius: 8px;
+  color: #FFF;
+  font-weight: 300;
+  transition: all 0.4s ease;
+  border-radius: 15px;
 }
 
 .sidenav a:hover{
-  color: #4e7ba0fd;
-  background-color: #FFF;
-  font-weight: 300;
+color: #4e7ba0fd;
+background-color: #FFF;
+font-weight: 300;
 }
 
 .sidenav i {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .sidenav img  {
-    max-height: 30px ;
-    padding-right: 5%;
+  max-height: 30px ;
+  padding-right: 5%;
 }
 
 .content {
-    padding: 16px;
-    background-color: #FFF;
+  padding: 16px;
+  background-color: #FFF;
 }
 
 .menu-list {
-  padding: 15px;
-  color: #FFF;
+padding: 15px;
+color: #FFF;
+}
+
+.mat-sidenav-content{
+background-color: rgb(237,242,245, 0.5)
 }
