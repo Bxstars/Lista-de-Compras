@@ -1,4 +1,18 @@
 <div>
-  <button mat-raised-button  class="button-create" (click)="navigateToProductCreate()">Novo Produto</button>
+  <mat-card-title>Produtos</mat-card-title>
 </div>
+<div>
+  <mat-card-subtitle>Cadastro de Produtos</mat-card-subtitle>
+</div>
+
+<div>
+  <button
+    mat-raised-button
+    class="button-create"
+    (click)="navigateToProductCreate()"
+  >
+    Novo Produto
+  </button>
+</div>
+
 <bx-product-read></bx-product-read>

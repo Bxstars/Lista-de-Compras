@@ -1,12 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-
+// @import '@angular/material/theming';
+// @include mat-core();
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 
-html, body { height: 100%;}
+
+html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
-  background-color: rgb(237,242,245, 0.5)
 }
-p { color: black;}
+
 
 table {
   width: 100%;
@@ -29,7 +30,7 @@ form {
 .button-action{
   margin-right: 15px;
   margin-top: 20px;
-  background-color: #3472a5fd;
+  background-color: #8454b4;
   color: white;
 }
 
@@ -52,7 +53,7 @@ form {
 
 .button-create {
   margin-bottom: 30px;
-  background-color: #3472a5fd;
+  background-color: #8454b4;
   color: white;
 }
 

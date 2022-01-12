@@ -6,7 +6,7 @@ import { ProductService } from 'src/app/core/services/product.service';
 @Component({
   selector: 'bx-product-create',
   templateUrl: './product-create.component.html',
-  styleUrls: ['./product-create.component.css']
+  styleUrls: ['./product-create.component.scss']
 })
 export class ProductCreateComponent implements OnInit {
 

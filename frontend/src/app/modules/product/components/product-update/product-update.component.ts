@@ -7,7 +7,7 @@ import { ProductService } from 'src/app/core/services/product.service';
 @Component({
   selector: 'bx-product-update',
   templateUrl: './product-update.component.html',
-  styleUrls: ['./product-update.component.css']
+  styleUrls: ['./product-update.component.scss']
 })
 export class ProductUpdateComponent implements OnInit {
 

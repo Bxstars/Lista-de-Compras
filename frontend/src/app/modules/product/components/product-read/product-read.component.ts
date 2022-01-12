@@ -8,11 +8,11 @@ import { ProductService } from "src/app/core/services/product.service";
 @Component({
   selector: "bx-product-read",
   templateUrl: "./product-read.component.html",
-  styleUrls: ["./product-read.component.css"],
+  styleUrls: ["./product-read.component.scss"],
 })
 export class ProductReadComponent implements OnInit {
   productList: Product[] = [];
-  displayedColumns: string[] = ['id','name', 'price', 'action'];
+  displayedColumns: string[] = ['id','category','producer','name','price', 'action'];
 
   constructor(private productServices: ProductService) { }
 
