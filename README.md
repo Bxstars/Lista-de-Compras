@@ -1,6 +1,6 @@
 # Lista de Compras
 
-![](https://github.com/Bxstars/home.PNG)
+![](https://github.com/Bxstars/Lista-de-Compras/home.PNG)
 
 
 
