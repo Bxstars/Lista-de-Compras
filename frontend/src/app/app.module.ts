@@ -16,6 +16,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { MatIconModule } from '@angular/material/icon';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './shared/template/footer/footer.component';
@@ -63,7 +64,8 @@ registerLocaleData(localePt)
     MatPaginatorModule,
     MatSortModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MatIconModule
   ],
   providers: [{
     provide: LOCALE_ID,

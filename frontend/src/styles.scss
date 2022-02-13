@@ -30,15 +30,15 @@ form {
 .button-action{
   margin-right: 15px;
   margin-top: 20px;
-  background-color: #8454b4;
+  background-color: #5961a1;
   color: white;
 }
 
 .button-cancel{
   margin-right: 15px;
   margin-top: 20px;
-  background-color: #b44268fd;
-  color: white;
+  background-color: #fff;
+  color: black;
 }
 
 .msg-success{
@@ -51,9 +51,27 @@ form {
   color: #FFF;
 }
 
-.button-create {
-  margin-bottom: 30px;
-  background-color: #8454b4;
-  color: white;
-}
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px;
+  }
 
+  /* Fundo da barra de rolagem */
+  ::-webkit-scrollbar-track-piece {
+  background-color: #EEE;
+  border-left: 1px solid  #5961a1;
+  }
+
+  /* Cor do indicador de rolagem */
+  ::-webkit-scrollbar-thumb:vertical,
+  ::-webkit-scrollbar-thumb:horizontal {
+  background-color: #bbbfc3;
+  border-radius: 10px;
+  border: 1px solid #EEE;
+  }
+
+  /* Cor do indicador de rolagem - ao passar o mouse */
+  ::-webkit-scrollbar-thumb:vertical:hover,
+  ::-webkit-scrollbar-thumb:horizontal:hover {
+  background-color:  #CCC
+  }

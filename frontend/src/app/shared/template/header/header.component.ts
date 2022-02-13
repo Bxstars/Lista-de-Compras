@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'bx-header',
+  selector: 'lc-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })

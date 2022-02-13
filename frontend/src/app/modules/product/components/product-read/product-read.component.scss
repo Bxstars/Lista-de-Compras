@@ -1,7 +1,7 @@
 
 th {
   font-size: 12pt;
-  background-color: #8454b4;
+  background-color: #5961a1;
   color: #FFF;
 }
 
@@ -11,7 +11,7 @@ td {
 }
 
 i.edit {
-  color: #ccd826;
+  color: rgb(135, 131, 141) ;
   padding: 8px;
 }
 
@@ -26,7 +26,8 @@ i.delete {
 }
 
 .material-icons:hover {
- box-shadow: 10px 10px 10px 3px #47464694;
+ box-shadow: 2px 3px 10px 2px #47464694;
  cursor: pointer;
  background-color: rgb(255, 255, 255);
 }
+

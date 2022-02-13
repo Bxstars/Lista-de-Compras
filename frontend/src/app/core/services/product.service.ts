@@ -3,8 +3,7 @@ import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar'
 import { EMPTY, Observable } from 'rxjs';
 import { map,  catchError } from 'rxjs/operators';
-
-import { Product } from '../interfaces/IProduct';
+import { IProduct } from '../interfaces/IProduct';
 
 
 @Injectable({
@@ -25,39 +24,39 @@ export class ProductService {
     })
   }
 
-  create(product: Product): Observable<Product> {
-    return this.http.post<Product>(this.baseUrl, product).pipe(
+  create(product: IProduct): Observable<IProduct> {
+    return this.http.post<IProduct>(this.baseUrl, product).pipe(
       map((obj) => obj),
       catchError((e) => this.errorHandler(e))
     );
   }
 
-  read(): Observable<Product[]> {
-    return this.http.get<Product[]>(this.baseUrl).pipe(
+  read(): Observable<IProduct[]> {
+    return this.http.get<IProduct[]>(this.baseUrl).pipe(
       map((obj) => obj),
       catchError((e) => this.errorHandler(e))
     );
   }
 
-  readById(id: string): Observable<Product> {
+  readById(id: string): Observable<IProduct> {
     const url = `${this.baseUrl}/${id}`
-    return this.http.get<Product>(url).pipe(
+    return this.http.get<IProduct>(url).pipe(
       map((obj) => obj),
       catchError((e) => this.errorHandler(e))
     );
   }
 
-  update(product: Product): Observable<Product> {
+  update(product: IProduct): Observable<IProduct> {
     const url = `${this.baseUrl}/${product.id}`
-    return this.http.put<Product>(url, product).pipe(
+    return this.http.put<IProduct>(url, product).pipe(
       map((obj) => obj),
       catchError((e) => this.errorHandler(e))
     );
   }
 
-  delete(id: number): Observable<Product>{
+  delete(id: number): Observable<IProduct>{
     const url =  `${this.baseUrl}/${id}`
-    return this.http.delete<Product>(url).pipe(
+    return this.http.delete<IProduct>(url).pipe(
       map((obj) => obj),
       catchError((e) => this.errorHandler(e))
     );

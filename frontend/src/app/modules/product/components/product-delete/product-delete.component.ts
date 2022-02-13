@@ -1,20 +1,22 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { Product } from 'src/app/core/interfaces/IProduct';
+import { IProduct } from 'src/app/core/interfaces/IProduct';
 import { ProductService } from 'src/app/core/services/product.service';
 
 
 @Component({
-  selector: 'app-product-delete',
+  selector: 'lc-product-delete',
   templateUrl: './product-delete.component.html',
   styleUrls: ['./product-delete.component.scss']
 })
 export class ProductDeleteComponent implements OnInit {
 
-  product: Product = {
+  product: IProduct = {
     id: 0,
     name: ' ',
-    price: 0
+    price: 0,
+    category: '',
+    producer: ''
   }
 
   constructor(

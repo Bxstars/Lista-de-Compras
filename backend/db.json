@@ -16,48 +16,20 @@
     },
     {
       "id": 3,
-      "name": "Iphone 11",
-      "price": 5200,
-      "category": "Eletrônico",
-      "producer": "Apple"
-    },
-    {
       "name": "Pen Drive ",
       "price": "100",
-      "id": 4,
       "category": "Informática",
       "producer": "Kingston"
     },
     {
+      "id": 4,
       "name": "Garrafa de água",
       "price": "2.50",
-      "id": 5,
       "category": "Alimentos",
       "producer": "Yara"
     },
     {
-      "name": "Mouse",
-      "price": "65",
-      "id": 6,
-      "category": "Informática",
-      "producer": "Logitech"
-    },
-    {
-      "name": "Samsung Watch 3",
-      "price": "2500",
-      "id": 7,
-      "category": "Eletrônico",
-      "producer": "Samsung"
-    },
-    {
-      "id": 8,
-      "name": "Notebook Acer",
-      "price": "4500",
-      "category": "Eletrônico",
-      "producer": "Acer"
-    },
-    {
-      "id": 9,
+      "id": 5,
       "name": "Funko Overwatch Mei",
       "price": "120",
       "category": "Decoração",

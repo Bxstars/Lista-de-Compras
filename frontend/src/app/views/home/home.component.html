@@ -1,18 +1,31 @@
-
-<mat-card class="category-card">
-  <mat-card-header>
-    <mat-card-title>Categorias</mat-card-title>
-  </mat-card-header>
-</mat-card>
-
-<mat-card class="producer-card">
-  <mat-card-header>
-    <mat-card-title>Marcas</mat-card-title>
-  </mat-card-header>
-</mat-card>
-
-<mat-card class="price-card">
-  <mat-card-header>
-    <mat-card-title>Preços</mat-card-title>
-  </mat-card-header>
-</mat-card>
+<div class="home-card">
+  <div class="columns">
+    <img src="assets/img/Online_shopping_PNG.png" alt="Compra Online" />
+  </div>
+  <div class="columns">
+    <mat-card class="category-card">
+      <mat-card-header>
+        <mat-card-title>Categorias</mat-card-title>
+      </mat-card-header>
+      <ul *ngFor="let listProduct of list">
+        <li>{{listProduct.category}}</li>
+      </ul>
+    </mat-card>
+    <mat-card class="category-card">
+      <mat-card-header>
+        <mat-card-title>Marcas</mat-card-title>
+      </mat-card-header>
+      <ul *ngFor="let listProduct of list">
+        <li>{{listProduct.producer}}</li>
+      </ul>
+    </mat-card>
+    <mat-card class="category-card">
+      <mat-card-header>
+        <mat-card-title>Produtos</mat-card-title>
+      </mat-card-header>
+      <ul *ngFor="let listProduct of list">
+        <li>{{listProduct.name}}</li>
+      </ul>
+    </mat-card>
+  </div>
+</div>

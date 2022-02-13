@@ -2,7 +2,7 @@ import {  Component, OnInit, ViewChild} from "@angular/core";
 import {MatPaginator} from '@angular/material/paginator';
 import { MatTableDataSource } from "@angular/material/table";
 
-import { Product } from "src/app/core/interfaces/IProduct";
+import { IProduct } from "src/app/core/interfaces/IProduct";
 import { ProductService } from "src/app/core/services/product.service";
 
 @Component({
@@ -11,7 +11,7 @@ import { ProductService } from "src/app/core/services/product.service";
   styleUrls: ["./product-read.component.scss"],
 })
 export class ProductReadComponent implements OnInit {
-  productList: Product[] = [];
+  productList: IProduct[] = [];
   displayedColumns: string[] = ['id','category','producer','name','price', 'action'];
 
   constructor(private productServices: ProductService) { }

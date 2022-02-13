@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'bx-product',
+  selector: 'lc-product',
   templateUrl: './product.component.html',
   styleUrls: ['./product.component.scss']
 })

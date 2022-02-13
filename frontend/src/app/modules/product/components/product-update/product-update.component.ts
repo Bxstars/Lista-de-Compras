@@ -1,6 +1,6 @@
 import { ActivatedRoute, Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-import { Product } from 'src/app/core/interfaces/IProduct';
+import { IProduct} from 'src/app/core/interfaces/IProduct';
 import { ProductService } from 'src/app/core/services/product.service';
 
 
@@ -11,10 +11,12 @@ import { ProductService } from 'src/app/core/services/product.service';
 })
 export class ProductUpdateComponent implements OnInit {
 
-  productSelected: Product = {
+  productSelected: IProduct = {
     id: 0,
     name: ' ',
-    price: 0
+    price: 0,
+    category: '',
+    producer: ''
   }
 
   constructor(

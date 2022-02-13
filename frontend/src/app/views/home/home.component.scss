@@ -1,20 +1,26 @@
+.home-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
 .category-card {
-    max-width: 400px;
-    margin-bottom: 8px;
-    background-color: blueviolet ;
-    color: #fff ;
+  margin-bottom: 8px;
+  margin-right: 10%;
+  color: #fff;
+  max-height: 100%;
+  max-width: 100%;
+  background-color: rgba(49, 60, 139, 0.807);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
-.producer-card {
-  max-width: 400px;
-  margin-bottom: 8px;
-  background-color: cadetblue;
-  color: #fff ;
+.columns {
+  width: 50%;
 }
 
-.price-card {
-  max-width: 400px;
-  margin-bottom: 8px;
-  background-color: darkslateblue;
-  color: #fff ;
+img {
+  width: 300px;
+  margin-left: 20%;
+  margin-top: 15%;
 }
