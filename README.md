@@ -2,7 +2,7 @@
 
 ![](https://github.com/Bxstars/Lista-de-Compras/blob/master/home.PNG)
 
-
+![](https://github.com/Bxstars/Lista-de-Compras/blob/master/produtos.PNG)
 
 ## Tecnologias 
 
