@@ -133,7 +133,6 @@
   "resolved" "https://registry.yarnpkg.com/@angular/cdk/-/cdk-12.2.5.tgz"
   "version" "12.2.5"
   dependencies:
-    "parse5" "^5.0.0"
     "tslib" "^2.2.0"
   optionalDependencies:
     "parse5" "^5.0.0"
@@ -2287,7 +2286,6 @@
     "anymatch" "^2.0.0"
     "async-each" "^1.0.1"
     "braces" "^2.3.2"
-    "fsevents" "^1.2.7"
     "glob-parent" "^3.1.0"
     "inherits" "^2.0.3"
     "is-binary-path" "^1.0.0"
@@ -2306,7 +2304,6 @@
   dependencies:
     "anymatch" "~3.1.2"
     "braces" "~3.0.2"
-    "fsevents" "~2.3.2"
     "glob-parent" "~5.1.2"
     "is-binary-path" "~2.1.0"
     "is-glob" "~4.0.1"
@@ -4490,8 +4487,6 @@
   "integrity" "sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss="
   "resolved" "https://registry.yarnpkg.com/jsonfile/-/jsonfile-4.0.0.tgz"
   "version" "4.0.0"
-  dependencies:
-    "graceful-fs" "^4.1.6"
   optionalDependencies:
     "graceful-fs" "^4.1.6"
 
@@ -4638,14 +4633,7 @@
   "version" "4.1.1"
   dependencies:
     "copy-anything" "^2.0.1"
-    "errno" "^0.1.1"
-    "graceful-fs" "^4.1.2"
-    "image-size" "~0.5.0"
-    "make-dir" "^2.1.0"
-    "mime" "^1.4.1"
-    "needle" "^2.5.2"
     "parse-node-version" "^1.0.1"
-    "source-map" "~0.6.0"
     "tslib" "^1.10.0"
   optionalDependencies:
     "errno" "^0.1.1"
@@ -4987,7 +4975,6 @@
   "resolved" "https://registry.yarnpkg.com/minipass-fetch/-/minipass-fetch-1.4.1.tgz"
   "version" "1.4.1"
   dependencies:
-    "encoding" "^0.1.12"
     "minipass" "^3.1.0"
     "minipass-sized" "^1.0.3"
     "minizlib" "^2.0.0"
