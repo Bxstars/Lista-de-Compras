@@ -1,24 +1,52 @@
 <mat-card-title>Novo Produto</mat-card-title>
-<form class="bg-color">
+<form [formGroup]="formProduct" class="bg-color">
   <mat-form-field appearance="outline">
-    <input matInput placeholder="Categoria" [(ngModel)]="product.category" name="name" />
+    <input
+      matInput
+      placeholder="Categoria"
+      name="category"
+      type="text"
+      formControlName="category"
+    />
+    <mat-error *ngIf="this.f['name'].invalid">
+      Inclua a categoria do produto
+    </mat-error>
   </mat-form-field>
   <mat-form-field appearance="outline">
-    <input matInput placeholder="Marca" [(ngModel)]="product.producer" name="name" />
+    <input
+      matInput
+      placeholder="Marca"
+      name="producer"
+      formControlName="producer"
+    />
+    <mat-error *ngIf="this.f['producer'].invalid">
+      Inclua a marca do produto
+    </mat-error>
   </mat-form-field>
   <mat-form-field appearance="outline">
-    <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name" />
+    <input
+      matInput
+      placeholder="Nome"
+      name="name"
+      formControlName="name"
+    />
+    <mat-error *ngIf="this.f['name'].invalid">
+      Inclua o nome do produto
+    </mat-error>
   </mat-form-field>
   <mat-form-field appearance="outline">
     <input
       matInput
       placeholder="Preço (R$)"
-      [(ngModel)]="product.price"
       name="price"
+      formControlName="price"
     />
+    <mat-error *ngIf="this.f['price'].invalid && this.f['price'].errors.pattern">
+      Inclua somente números
+    </mat-error>
   </mat-form-field>
 </form>
-<button mat-raised-button (click)="createProduct()" class="button-action">
+<button mat-raised-button [disabled]="this.formProduct.invalid" (click)="createProduct()" class="button-action">
   Salvar
 </button>
 <button mat-raised-button (click)="cancel()" class="button-cancel">
