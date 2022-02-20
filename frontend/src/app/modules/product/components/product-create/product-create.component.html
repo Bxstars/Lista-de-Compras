@@ -1,5 +1,5 @@
 <mat-card-title>Novo Produto</mat-card-title>
-<form [formGroup]="formProduct" class="bg-color">
+<form [formGroup]="formProduct">
   <mat-form-field appearance="outline">
     <input
       matInput
@@ -17,6 +17,7 @@
       matInput
       placeholder="Marca"
       name="producer"
+      type="text"
       formControlName="producer"
     />
     <mat-error *ngIf="this.f['producer'].invalid">
@@ -28,6 +29,7 @@
       matInput
       placeholder="Nome"
       name="name"
+      type="text"
       formControlName="name"
     />
     <mat-error *ngIf="this.f['name'].invalid">
