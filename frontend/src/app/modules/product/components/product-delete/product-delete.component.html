@@ -14,7 +14,7 @@
       <input
         matInput
         placeholder="Preço (R$)"
-        [value]="product.price"
+        [value]="product.price | currency: 'BRL'"
         name="price"
         disabled
       />

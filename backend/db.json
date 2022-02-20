@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Caneta Azul ",
-      "price": 5.89,
+      "price": "5",
       "category": "Papelaria",
       "producer": "Bic"
     },
@@ -17,14 +17,14 @@
     {
       "id": 3,
       "name": "Pen Drive ",
-      "price": "100",
+      "price": "1001",
       "category": "Informática",
       "producer": "Kingston"
     },
     {
       "id": 4,
       "name": "Garrafa de água",
-      "price": "2.50",
+      "price": "2",
       "category": "Alimentos",
       "producer": "Yara"
     },

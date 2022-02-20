@@ -1,26 +1,56 @@
-
-  <mat-card-title>Editar Produto</mat-card-title>
-  <form>
-    <mat-form-field appearance="outline">
-      <input matInput placeholder="Categoria" [(ngModel)]=" productSelected.category" name="category" />
-    </mat-form-field>
-    <mat-form-field appearance="outline">
-      <input matInput placeholder="Marca" [(ngModel)]=" productSelected.producer" name="producer" />
-    </mat-form-field>
-      <mat-form-field appearance="outline">
-          <input matInput placeholder="Nome"
-          [(ngModel)]=" productSelected.name" name="name">
-      </mat-form-field>
-      <mat-form-field appearance="outline">
-          <input matInput placeholder="Preço (R$)"
-          [(ngModel)]=" productSelected.price" name="price">
-      </mat-form-field>
-  </form>
-  <button mat-raised-button (click)="updateProduct()"  class="button-action">
-      Salvar
-  </button>
-  <button mat-raised-button (click)="cancel()" class="button-cancel">
-      Cancelar
-  </button>
-
-
+<mat-card-title>Editar Produto</mat-card-title>
+<form [formGroup]="formProduct">
+  <mat-form-field appearance="outline">
+    <input
+      matInput
+      placeholder="Categoria"
+      name="category"
+      type="text"
+      formControlName="category"
+    />
+    <mat-error *ngIf="this.f['name'].invalid">
+      Inclua a categoria do produto
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <input
+      matInput
+      placeholder="Marca"
+      name="producer"
+      type="text"
+      formControlName="producer"
+    />
+    <mat-error *ngIf="this.f['producer'].invalid">
+      Inclua a marca do produto
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <input
+      matInput
+      placeholder="Nome"
+      name="name"
+      type="text"
+      formControlName="name"
+    />
+    <mat-error *ngIf="this.f['name'].invalid">
+      Inclua o nome do produto
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <input
+      matInput
+      placeholder="Preço (R$)"
+      name="price"
+      formControlName="price"
+    />
+    <mat-error *ngIf="this.f['price'].invalid && this.f['price'].errors.pattern">
+      Inclua somente números
+    </mat-error>
+  </mat-form-field>
+</form>
+<button mat-raised-button [disabled]="this.formProduct.invalid" (click)="updateProduct()" class="button-action">
+  Salvar
+</button>
+<button mat-raised-button (click)="cancel()" class="button-cancel">
+  Cancelar
+</button>

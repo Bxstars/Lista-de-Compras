@@ -38,7 +38,7 @@ export class ProductService {
     );
   }
 
-  readById(id: string): Observable<IProduct> {
+  readById(id: number ): Observable<IProduct> {
     const url = `${this.baseUrl}/${id}`
     return this.http.get<IProduct>(url).pipe(
       map((obj) => obj),
@@ -46,9 +46,9 @@ export class ProductService {
     );
   }
 
-  update(product: IProduct): Observable<IProduct> {
+  update(product: IProduct): Observable<string> {
     const url = `${this.baseUrl}/${product.id}`
-    return this.http.put<IProduct>(url, product).pipe(
+    return this.http.put<any>(url, product).pipe(
       map((obj) => obj),
       catchError((e) => this.errorHandler(e))
     );
