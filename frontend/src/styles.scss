@@ -41,14 +41,24 @@ form {
   color: black;
 }
 
-.msg-success{
-  background-color: #43a770;
-  color: #FFF;
+.msg-success button{
+  color: #307750;
+}
+
+.msg-success {
+  color: black;
+  background-color: #84d6a9;
+  border: 2px solid #48b97b;
+}
+
+.msg-error button{
+  color: rgb(153, 42, 53);
 }
 
 .msg-error{
-  background-color:  rgb(219, 99, 111);
-  color: #FFF;
+  color: black;
+  background-color: rgb(221, 105, 117);
+  border: 2px solid  rgb(228, 71, 87);
 }
 
 /* Largura da barra de rolagem */
