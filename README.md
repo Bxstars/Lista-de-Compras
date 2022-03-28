@@ -1,6 +1,6 @@
 # Lista de Compras
 
-![](https://github.com/Bxstars/Lista-de-Compras/blob/master/Lista-compras.gif)
+![](https://github.com/Bxstars/Lista-de-Compras/blob/master/lista-compras.gif)
 
 
 ## Tecnologias 
