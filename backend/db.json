@@ -9,9 +9,9 @@
     },
     {
       "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": 12000,
-      "category": "Eletrônico",
+      "name": "MacBook Pro 13,3",
+      "price": "12899",
+      "category": "Notebook",
       "producer": "Apple"
     },
     {
@@ -24,16 +24,65 @@
     {
       "id": 4,
       "name": "Garrafa de água",
-      "price": "2",
+      "price": "3",
       "category": "Alimentos",
       "producer": "Yara"
     },
     {
       "id": 5,
       "name": "Funko Overwatch Mei",
-      "price": "120",
+      "price": 120,
       "category": "Decoração",
       "producer": "Funko"
+    },
+    {
+      "name": "Nintendo Switch",
+      "price": "2200",
+      "category": "Game",
+      "producer": "Nintendo",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "Iphone 13 Pro 128GB",
+      "price": "6800",
+      "category": "SmartPhone",
+      "producer": "Apple"
+    },
+    {
+      "name": "Apple Watch Series 7",
+      "price": "4199",
+      "category": "SmartWatch",
+      "producer": "Apple",
+      "id": 8
+    },
+    {
+      "name": "AirPods Pro",
+      "price": "1899",
+      "category": "Fone Bluetooth TWS",
+      "producer": "Apple",
+      "id": 9
+    },
+    {
+      "name": "AirPods Max",
+      "price": "4899",
+      "category": "Headphone Bluetooth",
+      "producer": "Apple",
+      "id": 10
+    },
+    {
+      "name": "iPad Air 4",
+      "price": "8459",
+      "category": "Tablet",
+      "producer": "Apple",
+      "id": 11
+    },
+    {
+      "id": 12,
+      "name": "Pencil 2",
+      "price": "1439",
+      "category": "Pencil",
+      "producer": "Apple"
     }
   ]
 }
