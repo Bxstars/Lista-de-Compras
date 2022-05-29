@@ -21,6 +21,8 @@ export class ProductCreateComponent implements OnInit {
 
   formProduct: FormGroup;
 
+  disabled: boolean = false;
+
   constructor(
     private productService: ProductService,
     private router: Router,
@@ -57,9 +59,10 @@ export class ProductCreateComponent implements OnInit {
 
 
   createProduct(): void {
+    this.disabled = true;
     const form = this.formProduct.value
     this.productService.create(form).subscribe(() => {
-      this.productService.showMessage('Produto criado com sucesso!')
+      this.productService.showMessage('Produto criado com sucesso');
       this.router.navigate(['/products'])
     })
   }

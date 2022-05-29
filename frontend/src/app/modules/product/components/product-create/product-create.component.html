@@ -48,7 +48,7 @@
     </mat-error>
   </mat-form-field>
 </form>
-<button mat-raised-button [disabled]="this.formProduct.invalid" (click)="createProduct()" class="button-action">
+<button mat-raised-button [disabled]="this.formProduct.invalid || this.disabled == true" (click)="createProduct()" class="button-action">
   Salvar
 </button>
 <button mat-raised-button (click)="cancel()" class="button-cancel">

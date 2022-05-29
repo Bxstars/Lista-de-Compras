@@ -72,7 +72,7 @@ export class ProductUpdateComponent implements OnInit {
   updateProduct(): void {
     let formValue = this.formProduct.value;
     this.productService.update(formValue).subscribe(() => {
-      this.productService.showMessage("Produto atualizado com sucesso!")
+      this.productService.showMessage("Produto atualizado com sucesso")
       this.router.navigate(["/products"])
     })
   }
