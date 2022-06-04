@@ -1247,7 +1247,7 @@
 
 "@ngtools/webpack@12.0.5":
   "integrity" "sha512-yoKK6qhEm1iWnniz50xzOBqa3U1iUrjZs+SpLOXRZFonpwObz8j4zraR231K4uV4kXcX40qorYk9iOf+ljG4JQ=="
-  "resolved" "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-12.0.5.tgz"
+  "resolved" "https://registry.npmjs.org/@ngtools/webpack/-/webpack-12.0.5.tgz"
   "version" "12.0.5"
   dependencies:
     "enhanced-resolve" "5.7.0"
@@ -3177,7 +3177,7 @@
 
 "enhanced-resolve@5.7.0":
   "integrity" "sha512-6njwt/NsZFUKhM6j9U8hzVyD4E4r0x7NQzhTCbcWOJ0IQjNSAoalWmb0AE51Wn+fwan5qVESWi7t2ToBxs9vrw=="
-  "resolved" "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.7.0.tgz"
+  "resolved" "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.7.0.tgz"
   "version" "5.7.0"
   dependencies:
     "graceful-fs" "^4.2.4"
@@ -7604,9 +7604,14 @@
     "media-typer" "0.3.0"
     "mime-types" "~2.1.24"
 
-"typescript@>=4.2.3 <4.3", "typescript@~4.2.3", "typescript@4.2.4":
+"typescript@^4.6.4", "typescript@>=4.2.3 <4.3", "typescript@~4.2.3":
+  "integrity" "sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.6.4.tgz"
+  "version" "4.6.4"
+
+"typescript@4.2.4":
   "integrity" "sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg=="
-  "resolved" "https://registry.yarnpkg.com/typescript/-/typescript-4.2.4.tgz"
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.2.4.tgz"
   "version" "4.2.4"
 
 "ua-parser-js@^0.7.28":
