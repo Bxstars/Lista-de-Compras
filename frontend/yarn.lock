@@ -3732,10 +3732,10 @@
   "resolved" "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-3.9.0.tgz"
   "version" "3.9.0"
 
-"jasmine-core@>=3.8", "jasmine-core@~3.7.0":
-  "integrity" "sha512-DH3oYDS/AUvvr22+xUBW62m1Xoy7tUlY1tsxKEJvl5JeJ7q8zd1K5bUwiOxdH+erj6l2vAMM3hV25Xs9/WrmuQ=="
-  "resolved" "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-3.7.1.tgz"
-  "version" "3.7.1"
+"jasmine-core@>=3.8", "jasmine-core@~4.1.1":
+  "integrity" "sha512-lmUfT5XcK9KKvt3lLYzn93hc4MGzlUBowExFVgzbSW0ZCrdeyS574dfsyfRhxbg81Wj4gk+RxUiTnj7KBfDA1g=="
+  "resolved" "https://registry.npmjs.org/jasmine-core/-/jasmine-core-4.1.1.tgz"
+  "version" "4.1.1"
 
 "jest-worker@^27.4.5":
   "integrity" "sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg=="
