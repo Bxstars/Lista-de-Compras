@@ -1,42 +1,55 @@
 <mat-card-title>Editar Produto</mat-card-title>
 <form [formGroup]="formProduct">
   <mat-form-field appearance="outline" class="form-field">
+    <mat-label>Categoria</mat-label>
     <input
       matInput
+      #inputCategory
+      maxlength="100"
       placeholder="Categoria"
       name="category"
       type="text"
       formControlName="category"
     />
+    <mat-hint align="end"> {{inputCategory.value?.length || 0}}/100 </mat-hint>
     <mat-error *ngIf="this.f['name'].invalid">
       Inclua a categoria do produto
     </mat-error>
   </mat-form-field>
   <mat-form-field appearance="outline" class="form-field">
+    <mat-label>Marca</mat-label>
     <input
       matInput
+      #inputProducer
+      maxlength="100"
       placeholder="Marca"
       name="producer"
       type="text"
       formControlName="producer"
     />
+    <mat-hint align="end"> {{inputProducer.value?.length || 0}}/100 </mat-hint>
     <mat-error *ngIf="this.f['producer'].invalid">
       Inclua a marca do produto
     </mat-error>
   </mat-form-field>
   <mat-form-field appearance="outline" class="form-field">
+    <mat-label>Nome</mat-label>
     <input
       matInput
+      #inputName
+      maxlength="100"
       placeholder="Nome"
       name="name"
       type="text"
       formControlName="name"
     />
+    <mat-hint align="end"> {{inputName.value?.length || 0}}/100 </mat-hint>
     <mat-error *ngIf="this.f['name'].invalid">
       Inclua o nome do produto
     </mat-error>
   </mat-form-field>
   <mat-form-field appearance="outline" class="form-field">
+    <mat-label>Preço</mat-label>
     <input
       matInput
       placeholder="Preço (R$)"

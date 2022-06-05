@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "lista-de-compras"
+  "defaultProject": "lista-de-compras",
+  "cli": {
+    "analytics": false
+  }
 }
