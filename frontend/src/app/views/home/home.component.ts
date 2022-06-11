@@ -25,6 +25,7 @@ export class HomeComponent implements OnInit {
   productList() {
     this.productService.read().subscribe((product) => {
       this.list = product;
+      // uniq = [...new Set(array)];
       this.fetchProductPrice();
     });
   }

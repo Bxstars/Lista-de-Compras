@@ -6,3 +6,15 @@ button {
   display: flex;
   justify-content: flex-end;
 }
+
+.button-new {
+  margin-right: 15px;
+  margin-top: 20px;
+  color: #5961a1;
+  border: 1px solid  #5961a1;
+}
+
+.button-new:hover {
+  background-color: #5961a1;
+  color: #fff;
+}
