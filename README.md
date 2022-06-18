@@ -1,5 +1,8 @@
 # Lista de Compras
 
+![alt text](https://github.com/Bxstars/Lista-de-Compras/blob/master/lista-compras%20(2).gif "GIF telas de Lista de Compras")
+
+
 
 
 ## Tecnologias 
